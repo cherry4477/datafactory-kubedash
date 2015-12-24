@@ -5,7 +5,7 @@
     labels: 
       name: "kubedash"
     name: "kubedash"
-    namespace: "kube-system"
+    namespace: "openshift-infra"
   spec: 
     replicas: 1
     selector: 
@@ -43,7 +43,7 @@
     labels: 
       name: "kubedash"
     name: "kubedash"
-    namespace: "kube-system"
+    namespace: "openshift-infra"
   spec:
     type: "LoadBalancer"
     ports: 
